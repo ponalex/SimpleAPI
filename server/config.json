@@ -1,0 +1,12 @@
+{
+    "DEBUG": false,
+    "LOGGER_LEVEL": "ERROR",
+    "SERVER_LISTEN": "0.0.0.0",
+    "SERVER_PORT": 8080,
+    "DATABASE":{
+       "name": "status",
+       "collection": "memory",
+       "address": "mongodb://mongo:27017",
+       "limit": 5
+    }
+}
